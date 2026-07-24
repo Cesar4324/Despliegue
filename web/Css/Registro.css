@@ -1,0 +1,61 @@
+body{
+    background:#0b0f19;
+    color:white;
+    font-family:'Segoe UI',sans-serif;
+    min-height:100vh;
+}
+
+.card-registro{
+    background:#111827;
+    border:none;
+    border-radius:20px;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+.card-registro h2{
+    color:white;
+}
+
+.form-label{
+    color:#d1d5db;
+}
+
+.form-control,
+.form-select{
+    background:#1f2937 !important;
+    color:white !important;
+    border:none !important;
+    padding:12px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border:1px solid #9061f9 !important;
+    box-shadow:none !important;
+}
+
+.form-control::placeholder{
+    color:#9ca3af;
+}
+
+.btn-morado{
+    background:#9061f9;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.btn-morado:hover{
+    background:#7e3af2;
+    color:white;
+}
+
+a{
+    color:#9061f9;
+}
+
+a:hover{
+    color:white;
+}
