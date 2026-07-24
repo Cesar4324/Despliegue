@@ -1,5 +1,5 @@
 # 1. Imagen oficial estable de Tomcat 9 con Java 17 de Corretto
-FROM tomcat:9.0-jdk17-corretto
+FROM tomcat:10.1-jdk17-corretto
 
 # 2. Limpiar las aplicaciones por defecto de Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/*
